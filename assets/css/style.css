@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+	position: relative;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
+img{
+	width: 100%
+}
+
+h1, h3{
+	text-align: center;
+	background-color: #fafafa;
+}
+
+
+#left{
+	position: absolute;
+	top: 40%
+	left:2%;
+	font-size: 2em;
+	color: black;
+	cursor: pointer;
+}
+
+#right{
+	position: absolute;
+	top: 40%
+	left:2%;
+	font-size: 2em;
+	color: black;
+	cursor: pointer;
+}
